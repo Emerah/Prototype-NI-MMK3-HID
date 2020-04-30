@@ -20,6 +20,7 @@ this operation is complletely safe. as soon you start maschine 2 software or at 
 
 **Platform**
 the code in this prototype was developed on **macOS** 10.14.6 and 10.15.x. since we must accesses the system to suspend ni drivers the code will only work on **mac**.
+developed with **python 3.7.7**
 
 **Required**
 
@@ -27,3 +28,11 @@ this prototype uses **pyusb**, which uses **libusb** as its backend. both must b
 
     brew install libusb
     pip install pyusb
+
+**How to run**
+
+in terminal, cd to this package folder and type:
+
+    python3 main.py
+
+script will ask you to agree to suspending ni drivers. if you choose yes, the script will run and you should see you Maschine MK2 screens blinking in random colors.
