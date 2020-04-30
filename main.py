@@ -32,7 +32,7 @@ colors = [white, black, gray, green, brown, blue, red, orange, purple, cyan, yel
 
 
 if __name__ == "__main__":
-    running = False
+    running = True
     if running:
         suspend_ni_backend_support()
     device = create_bulk_device(vid, pid)
