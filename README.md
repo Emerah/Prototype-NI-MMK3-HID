@@ -1,6 +1,6 @@
 # Prototype-NI-MMK3-HID
 
-the problem we are trying to solve is the problem of gaining access to the gorgeous screens found on newer generation ni products, namely komplete kontrol smk2 series and maschine mk3.
+the problem we are trying to solve is the problem of gaining access to the gorgeous screens found on newer generation ni products, namely **Maschine MK3** and **Komplete Kontrol S-MK2** series.
 
 this can be very useful if we for example want to use one of those ni products with ableton live and be able to see meaningful feedback on the screens instead of using the old and ugly mackie control protocol for text display. to make things worse, mackie is only available on the maschine mk3 hardware and not the komplete series.
 
@@ -31,7 +31,7 @@ this prototype uses **pyusb**, which uses **libusb** as its backend. both must b
 
 **How to run**
 
-in terminal, cd to this package folder and type:
+download this packege. in terminal, cd to the package folder and type:
 
     python3 main.py
 
