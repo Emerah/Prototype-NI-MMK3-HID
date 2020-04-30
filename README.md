@@ -8,7 +8,7 @@ for this prototype engine we will try to accomplish 1 thing:
 
  - send valid data messages to Maschine MK3 to **fill the screens with colors**.
   
-we will assume since we know the product ids of all NI products with similar screens, that what works here will also work with komplete keyboards from the S mk2 family. in order to be able to access Maschine MK3 screens and therefore be able to accomplish the goal of this prototype that is, filling the screens with colors.
+we will assume since we know the product ids of all NI products with similar screens, that what works here will also work with komplete keyboards from the S mk2 family. in order to be able to access Maschine MK3 screens and therefore be able to accomplish the goal of this prototype that is, filling the screens with colors, we must suspend ni drivers.
 
 ---
 
