@@ -65,7 +65,7 @@ def color_test(color1=0, color2=0, bg_color=0):
 
 
 if __name__ == "__main__":
-    running = False
+    running = True
     if running:
         suspend_ni_backend_support()
     device = create_bulk_device(vid, pid)
@@ -76,5 +76,5 @@ if __name__ == "__main__":
         color2 = random.choice(colors)
         bg_color = random.choice(colors)
         color_test(bg_color=bg_color)
-        time.sleep(0.4)
+        time.sleep(0.3)
     print('done')

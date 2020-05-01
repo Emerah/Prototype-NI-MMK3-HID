@@ -35,10 +35,6 @@ def repeat_pixels(count, pixel1, pixel2):
     return header + count + pixel1 + pixel2
 
 
-def transfer_pixels():
-    pass
-
-
 def blit_command():
     command = bytes.fromhex('03000000')
     return command

@@ -9,6 +9,7 @@
 import os
 import re
 import subprocess
+import time
 
 
 def process_is_currently_active(process):
@@ -41,3 +42,4 @@ def suspend_ni_backend_support():
     else:
         print('this did not make sense. answer can be y or n ?')
     print('exiting with grace')
+    time.sleep(6)
