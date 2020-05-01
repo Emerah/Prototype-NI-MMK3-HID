@@ -35,4 +35,6 @@ download this packege. in terminal, cd to the package folder and type:
 
     python3 main.py
 
-script will ask you to agree to suspending ni drivers. if you choose yes, the script will run and you should see you Maschine MK2 screens blinking in random colors.
+script will ask you to agree to suspending ni drivers. if you choose yes, the script will run and you should see you Maschine MK2 screens blinking in random colors. 
+
+if you don't want the script to ask everytime, set 'running' flag in main.py file to False after suspending the drivers the first time.
